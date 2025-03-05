@@ -6,6 +6,8 @@ const productRoutes = require("./routes/productRoutes");
 const orderRoutes = require("./routes/orderRoutes");
 const cartRoutes = require("./routes/cartRoutes");
 const userToken = require("./routes/userTokenRoutes")
+require("dotenv").config();
+
 
 const app = express();
 

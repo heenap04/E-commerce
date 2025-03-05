@@ -16,8 +16,6 @@ connectionParams = {
 };
 
 
-
-
 const pool = mysql2.createConnection(connectionParams);
 
 pool.connect((err) => {
